@@ -50,6 +50,7 @@ button, input {
     min-width: none;
     transition: .1s;
     float: right;
+    margin-bottom: 5px;
 }
 
 .btn-upload:hover,

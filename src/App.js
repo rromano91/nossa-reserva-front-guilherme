@@ -11,6 +11,8 @@ import CadastrarCondominio from './components/Condominio/CadastrarCondominio';
 import CadastrarAreaComum from './components/Area-comum/CadastrarAreaComum';
 import CadastrarUsuario from './components/Cadastro-Usuario/CadastroUsuario';
 import HomeUser from './components/Home-user/HomeUser';
+import ListaReservaAdmin from './components/Lista-reserva-admin/ListaReservaAdmin';
+import ListaReservaHosp from './components/Lista-reserva-hospede/ListaReservaHosp';
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
           <Route path="/cadastrarareacomum" element ={<CadastrarAreaComum />} />
           <Route path='/cadastrousuario' element={<CadastrarUsuario />} />
           <Route path='/homeuser' element={<HomeUser />} />
+          <Route path='/listareservaadmin' element={<ListaReservaAdmin />} />
+          <Route path='/listareservahosp' element={<ListaReservaHosp />} />
         </Routes>
         <Footer />
         </CondominioStorage>

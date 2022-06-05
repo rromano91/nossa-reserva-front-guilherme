@@ -1,0 +1,40 @@
+.cadastrar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+    gap: 2rem;
+}
+
+.cadastrar::before {
+    display:block;
+    content: '';
+    background: url('../../Assets/condominio.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.forms {
+    max-width: 40rem;
+    padding: 2rem;
+}
+
+@media (max-width: 40rem) {
+    .login {
+        grid-template-columns: 1fr;
+    }
+    .login::before {
+        display: none;
+    }
+    .forms {
+        max-width: 100%;
+    }
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+td, th {
+    padding: 3px 10px;
+    border-bottom: 1px solid grey;
+}
